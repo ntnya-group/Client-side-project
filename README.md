@@ -1,1 +1,1 @@
-# Uriel-Bender
+# Client side project
