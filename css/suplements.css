@@ -1,0 +1,168 @@
+﻿
+#imgLogo {
+    width: 200px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mastheadNew {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 8rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.9) 75%, #161616 100%), url("../img/‏‏ahimeir_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.mastheadNew h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.mastheadNew h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .mastheadNew h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    #imgLogo {
+        width: 209.6px;
+        height: 72px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    #imgLogo {
+        width: 264px;
+        height: 90px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .mastheadNew {
+        height: 100vh;
+        padding: 0;
+    }
+
+        .mastheadNew h1 {
+            font-size: 6.5rem;
+            line-height: 6.5rem;
+            letter-spacing: 0.8rem;
+        }
+
+        .mastheadNew h2 {
+            max-width: 30rem;
+            font-size: 1.25rem;
+        }
+}
+
+.signupN-section {
+    padding: 4rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/‏‏ahimeir_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+    .signupN-section .form-inline input {
+        box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+        padding: 1.25rem 2rem;
+        height: auto;
+        font-family: 'Varela Round';
+        font-size: 80%;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        border: 0;
+    }
+
+#pId {
+    font-size: x-large;
+    color: #161616;
+    font-weight:bold;
+}
+.pfont {
+    font-size: 4vw;
+    color: rgba(251, 251, 251, 0.9);
+}
+
+.pfontImgGrid {
+    font-size: 3.5vw;
+    color: rgba(251, 251, 251, 0.9);
+}
+
+@media (min-width: 768px) {
+    .pfont {
+        font-size: 1.3vw;
+        color: rgba(251, 251, 251, 1);
+    }
+    .pfontImgGrid {
+        font-size: 1vw;
+        color: rgba(251, 251, 251, 0.55);
+    }
+}
+
+.collapsibleFaq {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+    .activeFaq, .collapsibleFaq:hover{
+        background-color: #555;
+    }
+
+.contentFaq {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.btnFaq {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 90%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    margin:4px;
+    height:100px;
+}
+
+.btnFaq-primary {
+    background-color: rgba(1,13,26,0.06);
+}
+
+    .btnFaq-primary:hover {
+        background-color: rgba(134,155,178,0.3);
+    }
+
+.h2-faq {
+    font-size:2.3vw;
+    color: rgba(22, 22, 22, 0.5);
+}
