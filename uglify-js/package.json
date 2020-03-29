@@ -45,7 +45,7 @@
   },
   "description": "JavaScript parser, mangler/compressor and beautifier toolkit",
   "devDependencies": {
-    "acorn": "~6.1.1",
+    "acorn": "~7.1.1",
     "semver": "~6.0.0"
   },
   "engines": {
